@@ -13,7 +13,7 @@
     {
       "name": "Joost Bloemsma",
       "maintainer": true
-    },
+    }
   ],
   "frameworks": "arduino",
   "platforms": "arduino"
