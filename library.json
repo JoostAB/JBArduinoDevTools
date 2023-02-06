@@ -3,7 +3,10 @@
   "version": "0.0.2",
   "description": "A bunch of tools I use when developing stuff for Arduino platform",
   "keywords": "tools debug mqtt",
-  "exclude": "platformio.ini",
+  "exclude": [
+    "platformio.ini",
+    "src/main.cpp"
+  ],
   "repository":
   {
     "type": "git",
