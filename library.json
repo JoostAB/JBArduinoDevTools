@@ -1,8 +1,9 @@
 {
   "name": "JBArduinoDevTools",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A bunch of tools I use when developing stuff for Arduino platform",
   "keywords": "tools, debug",
+  "exclude": "platformio.ini",
   "repository":
   {
     "type": "git",
@@ -16,5 +17,8 @@
     }
   ],
   "frameworks": "arduino",
-  "platforms": "arduino"
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ]
 }
