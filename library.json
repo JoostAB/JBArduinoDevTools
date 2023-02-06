@@ -2,7 +2,7 @@
   "name": "JBArduinoDevTools",
   "version": "0.0.2",
   "description": "A bunch of tools I use when developing stuff for Arduino platform",
-  "keywords": "tools, debug",
+  "keywords": "tools debug mqtt",
   "exclude": "platformio.ini",
   "repository":
   {
@@ -16,6 +16,9 @@
       "maintainer": true
     }
   ],
+  "dependencies": {
+    "hideakitai/MQTTPubSubClient": "^0.1.1"
+  },
   "frameworks": "arduino",
   "platforms": [
     "espressif8266",
