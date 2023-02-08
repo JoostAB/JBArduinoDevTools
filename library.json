@@ -1,6 +1,6 @@
 {
   "name": "JBArduinoDevTools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A bunch of tools I use when developing stuff for Arduino platform",
   "keywords": "tools debug mqtt",
   "exclude": [
