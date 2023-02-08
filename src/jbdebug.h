@@ -31,6 +31,8 @@
 
 #if DEBUGLOG
 
+#define DEBUGSTART(s)                { Serial.begin(115200); }
+#define DEBUGSTARTDEF                  DEBUGSTART(115200)
 #define PRINTS(s)                    { Serial.print(F(s)); }
 #define PRINTDS(s)                   { Serial.print(s); }
 #define PRINT(s,v)                   { Serial.print(F(s)); Serial.print(v); }
@@ -47,6 +49,8 @@
 
 #else
 // No debugging, replace all PRINT*** calls with nothing
+#define DEBUGSTART(s)                
+#define DEBUGSTARTDEF                
 #define PRINTS(s)
 #define PRINTDS(s)
 #define PRINT(s,v)
